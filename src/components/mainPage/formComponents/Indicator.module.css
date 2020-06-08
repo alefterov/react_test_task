@@ -1,0 +1,61 @@
+
+.stages_title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 64px;
+    color: #FFFFFF;
+}
+.indicator_container {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.steps {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 50px 0;
+}
+.step_number {
+    width: 30px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    background: #1E34A5;
+    border-radius: 20px;
+}
+.between_numbers {
+    width: 184px;
+    height: 2px;
+    background: #E8E8E8;
+    opacity: 0.2;
+    border-radius: 8px;
+    margin: 0 8px;
+}
+.step_number.active {
+    background: #DA3F5B;
+}
+@media (max-width: 480px) {
+    .stages_title {
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .indicator_container {
+        margin-top: 30px;
+    }
+    .between_numbers {
+        width: 90px;
+    }
+    .steps {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 0 30px 0;
+    }
+}

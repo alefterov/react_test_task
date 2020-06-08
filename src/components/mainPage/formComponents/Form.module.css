@@ -1,0 +1,32 @@
+.form_area {
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0px;
+    background: #FFFFFF;
+    padding: 0;
+    /* padding: 5%; */
+}
+.form_area label {
+    font-size: 14px;
+    line-height: 24px;
+    color: #636363;
+    cursor: pointer;
+}
+.top_inputs {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 90%;
+    padding: 5% 5% 0 5%;
+}
+@media (max-width: 480px) {
+
+    .form_area {
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0px;
+        background: #FFFFFF;
+        padding: 0;
+        /* padding: 5%; */
+    }
+}

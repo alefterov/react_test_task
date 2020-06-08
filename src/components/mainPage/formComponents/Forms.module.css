@@ -1,0 +1,36 @@
+
+.form_area {
+    width: 496px;
+    height: auto;
+    border-radius: 8px;
+    background: #FFFFFF;
+    padding: 56px 56px 56px 56px;
+}
+.top_inputs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form_area label {
+    font-size: 14px;
+    line-height: 24px;
+    color: #636363;
+    cursor: pointer;
+}
+@media (max-width: 480px) {
+    .form_area {
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0px;
+        background: #FFFFFF;
+        padding: 0;
+        /* padding: 5%; */
+    }
+    .top_inputs {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 90%;
+        padding: 5% 5% 0 5%;
+    }
+}

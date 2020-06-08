@@ -1,0 +1,43 @@
+
+.form_input {
+    margin-top: 8px;
+    width: calc(100% - 32px);
+    font-style: normal;
+    font-weight: normal;
+    height: 48px;
+    padding: 0 16px;
+    background: #F9F9F9;
+    border: 1px solid #F9F9F9;
+    border-radius: 8px;
+    line-height: 32px;
+    font-size: 16px;
+    color: #A7A7A7;
+    cursor: pointer;
+}
+.form_input::placeholder {
+    font-weight: 300;
+    color: #A7A7A7;
+}
+.form_area label {
+    font-size: 14px;
+    line-height: 24px;
+    color: #636363;
+    cursor: pointer;
+}
+.require_label {
+    color: #F15557;
+}
+.not_valid_business{
+    line-height: 12px;
+    height: 12px;
+    font-size: 12px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    color: #F15557;
+}
+@media (max-width: 480px) {
+
+    .business_container, .description_container {
+        padding: 0 5%;
+    }
+}
